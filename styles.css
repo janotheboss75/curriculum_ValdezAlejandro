@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Mono';
+}
+
+.header{
+    margin: 0;
+    background-color: #00b4d8;
+}
+
+h2{
+    margin: 0;
+}
+
+#foto{
+    height: 100px;
+}
+
+#Informacion-Personal{
+    background-color: #caf0f8;
+    border-style: solid;
+}
