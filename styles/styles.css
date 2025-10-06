@@ -1,0 +1,108 @@
+@import url(./global.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+    margin:0px;
+    font-family: "Roboto Mono", monospace;
+}
+
+h3,p{
+    margin: 0px;
+}
+
+/*ESTILOS A HEADER*/
+.header{
+    background-color: var(--bg--color--header);
+}
+
+.header > ul{
+    margin: 0;
+    padding: 10px;
+}
+
+.header > li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.header > li > a{
+    text-decoration: none;
+    color: var(--color--para--links);
+}
+
+.header > li > a:hover{
+    color: var(--color--hover--links);
+    font-weight: bold;
+}
+
+/*DECORACION A INFORMACION PERSONAL*/
+#Informacion-Personal{
+    background-color: var(--bg--color--infoPersonal);
+    height: 200px;
+}
+
+#Informacion-Personal > h2{
+    display: inline;
+    margin-left: 25%;
+}
+
+#Informacion-Personal > img{
+    height: 200px;
+    float: left;
+}
+
+#Informacion-Personal > p{
+    margin-left: 37%;
+}
+
+/*DECORACION CADA ARTICULO*/
+.articulo{
+    float: left;
+    height: 200px;
+    overflow: auto;
+}
+
+/*DECORACION A AUTOBIOGRAFIA*/
+#autobiografia{
+    background-color: var(--bg--color--autobiografia);
+    width: 50%;
+}
+
+#autobiografia > h3{
+    text-align: center;
+}
+
+/*DECORACION A EXPERIENCIA LABORAL*/
+#Experiencia-Laboral{
+    background-color: var(--bg--color-experienciaLaboral);
+    width: 50%;
+}
+
+#Experiencia-Laboral > h3{
+    text-align: center;
+}
+
+/*DECORACION A EDUCACION*/
+#Educacion{
+    background-color: var(--bg--color-educacion);
+    width: 50%;
+}
+
+#Educacion > h3{
+    text-align: center;
+}
+
+/*DECORACION A IDIOMAS*/
+#Idiomas{
+    background-color: var(--bg--color-idiomas);
+    width: 50%;
+}
+
+#Idiomas > h3{
+    text-align: center;
+}
+
+/*DECORACION AL FOOTER*/
+footer > p{
+ text-align: center;
+}
